@@ -1,8 +1,8 @@
-name: ar-indivbustax25-dev2
+name: ar-indivbustax25-dev3
 channels:
 - conda-forge
 dependencies:
-- python>=3.12, <3.14
+- python>=3.10, <3.13
 - ipython
 - ipykernel
 - jupyter
@@ -13,7 +13,8 @@ dependencies:
 - plotly
 - pip
 - pip:
-  - policyengine-us
+  - policyengine-core==3.16.3
+  - policyengine-us==1.221.0
   - cost-of-capital-calculator
   - behresp
   - bokeh_sampledata
